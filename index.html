@@ -6,23 +6,48 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>My to-do list</title>
     <script type="script.js" src="script.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+    <link rel="shortcut icon" href="faviconbeauty.ico" type="image/x-icon"/>
+    <link href="https://fonts.googleapis.com/css?family=Lobster+Two&display=swap" rel="stylesheet"> 
 </head>
+
 <body>
+    <!--header-->
+    <header>
     <h1>Liste de courses "Beauté"</h1>
-    <input id="userinput" type="text" placeholder="ici, tapez vos courses!">
-    <button id="enter" type="submit">Ajouter</button>
-<ul>
-    <li>Eau démaquillante</li>
-    <li>Coton</li>
-    <li>Sérum liftant</li>
-    <li>Crème hydratante</li>
-    <li>Fond de teint</li>
-    <li>Fards à paupières</li>
-    <li>Mascara</li>
-    <li>Crayon pour les yeux</li>
-    <li>Rouge à lèvres</li>
-    <li>Gloss</li>
-    <li>Poudre</li>
-</ul>
+    </header>
+
+    <!--zone for add new elements list-->
+    <section>
+        <input id="userinput" type="text" placeholder="ici, tapez vos courses!">
+        <button id="enter" type="submit">Ajouter</button>
+        <button onclick="print();">Imprimer la liste</button>
+    </section>
+    
+    <!--list shopping-->
+    <main>
+        <ul>
+            <li>Eau démaquillante</li>
+            <li>Coton</li>
+            <li>Sérum liftant</li>
+            <li>Crème hydratante</li>
+            <li>Fond de teint</li>
+            <li>Fards à paupières</li>
+            <li>Mascara</li>
+            <li>Crayon pour les yeux</li>
+            <li>Rouge à lèvres</li>
+            <li>Gloss</li>
+            <li>Poudre</li>
+        </ul>
+    </main>
+
+    <!--content informations-->
+    <footer class="footer">
+        <div>
+        <aside>Ceci est un exercice, dans le cadre d'une formation dev.</aside>
+        <aside>Auteur: #dev-amandineb</aside>
+        </div>
+    </footer>
+
 </body>
 </html>
