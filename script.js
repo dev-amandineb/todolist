@@ -14,3 +14,9 @@ function addListAfterClick() {
 		createListElement();
     }
 
+/* button print the page */
+/*<script type="text/javascript">
+       function imprimer_page(){
+       window.print();
+       }
+</script>
