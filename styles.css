@@ -1,20 +1,30 @@
+
 /* SELECTEURS GENERALS */
 * {
-    margin: 0; padding: 0; background: black; color: white;
+    margin: 0; padding: 0; white;
+}
+/* BODY */
+body {
+    background-image:url(images/fondmakeup.jpg);
+    background-attachment:fixed;
+    height: 100%;
+    width: 100%;
 }
 /* HEADER */
 header {
     font-family: 'Lobster Two', cursive;
-    font: lighter;
+    font-size: 2rem;
+    color: white; text-shadow: black 0.1em 0.1em 0.2em;
     text-align:center; 
-    margin: 5rem;
+    margin: 3.5rem;
 }
 
 /* SECTION (button and input) */
 section {
     font-family: Impact; 
     text-align: center;
-    margin: 2rem
+    margin: 2rem;
+    border-color: blueviolet;
 }
 
 /* MAIN (list elements) */
@@ -30,5 +40,6 @@ footer {
     font-family: 'Lobster Two', cursive;
     font-size: 1rem;
     color: whitesmoke;
-    background-color: black;
+    background-color: palevioletred;
+    margin-block: 1rem;
 }
