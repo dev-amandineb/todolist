@@ -12,4 +12,4 @@ function addListAfterClick() {
 		createListElement();
     }
 
-    
+<a href="javascript:window.print()"><button>Print the page</button></a>
