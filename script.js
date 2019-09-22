@@ -1,18 +1,27 @@
+console.log("todolist")
+
 /* Declaration variables: */
 const button = document.getElementById("enter");
-const input = document.getElementById("userinput");
-const ul = document.querySelector("ul");
-const li= document.createElement("li");
+const input = document.getElementById("input");
+const li= document.getElementById("li");
 
-/* Commit for input value */
-function inputlength () {
-       return input.value.length;
+
+/* Create functions */
+function createNewElement(){
+       const list = document.createElement('li');
+       const inputvalue = document.getElementById("input").value;
+       let textNode = document.createTextNode(inputvalue);
+       li.appenchild(TextNode);
+
+       if (inputvalue === ""){
+              alert ("ouh lala, moi pas comprendre ce que tu veux!")
+       } else {
+              document.getElementById(list).appenchild(li)
+       }
 }
-/* Commit js */
-function addListAfterClick() {
-	if (inputLength() > 0) {
-		createListElement();
-    }
+
+/* darkmode */
+
 
 /* button print the page */
 /*<script type="text/javascript">
