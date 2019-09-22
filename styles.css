@@ -1,0 +1,34 @@
+/* SELECTEURS GENERALS */
+* {
+    margin: 0; padding: 0; background: black; color: white;
+}
+/* HEADER */
+header {
+    font-family: 'Lobster Two', cursive;
+    font: lighter;
+    text-align:center; 
+    margin: 5rem;
+}
+
+/* SECTION (button and input) */
+section {
+    font-family: Impact; 
+    text-align: center;
+    margin: 2rem
+}
+
+/* MAIN (list elements) */
+main {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: left; 
+    margin: 2rem;
+}
+
+/* FOOTER */
+footer {
+    text-align: center; 
+    font-family: 'Lobster Two', cursive;
+    font-size: 1rem;
+    color: whitesmoke;
+    background-color: black;
+}
